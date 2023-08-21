@@ -3,7 +3,7 @@
 from zeep import Client
 
 wsdl = 'https://dss.cryptopro.ru/verify/service.svc?wsdl'
-sign = 'Нужен верная подпись'
+sign = 'Нужна верная подпись'
 client = Client(wsdl=wsdl)
 
 
