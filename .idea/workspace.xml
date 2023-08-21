@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb54b0d2-42cb-41d6-ac13-4efd0650317f" name="Changes" comment="Added seminar 1">
-      <change afterPath="$PROJECT_DIR$/hw1/config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw1/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw1/task.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw1/test_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/hw1/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="bb54b0d2-42cb-41d6-ac13-4efd0650317f" name="Changes" comment="Added HW 1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -181,12 +174,21 @@
       <option name="project" value="LOCAL" />
       <updated>1692642758491</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added HW 1">
+      <option name="closed" value="true" />
+      <created>1692653240658</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1692653240658</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added lesson1" />
     <MESSAGE value="Added seminar 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added seminar 1" />
+    <MESSAGE value="Added HW 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added HW 1" />
   </component>
 </project>
