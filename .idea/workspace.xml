@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb54b0d2-42cb-41d6-ac13-4efd0650317f" name="Changes" comment="Added HW 1">
-      <change afterPath="$PROJECT_DIR$/hw2/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw2/module.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw2/task.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw2/test_gb_stand.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw2/testdata.yaml" afterDir="false" />
+    <list default="true" id="bb54b0d2-42cb-41d6-ac13-4efd0650317f" name="Changes" comment="Added HW 2">
+      <change afterPath="$PROJECT_DIR$/lesson3/BaseApp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/test_gb_stand.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/testdata.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/testpage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seminar2/test_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/seminar2/test_1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,12 +52,13 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "E:/Geek Brains/Git/QA_Auto_Python_web/hw2",
+    "last_opened_file_path": "E:/Geek Brains/Git/QA_Auto_Python_web/lesson3",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Geek Brains\Git\QA_Auto_Python_web\lesson3" />
       <recent name="E:\Geek Brains\Git\QA_Auto_Python_web\hw2" />
       <recent name="E:\Geek Brains\Git\QA_Auto_Python_web\seminar2" />
       <recent name="E:\Geek Brains\Git\QA_Auto_Python_web\hw1" />
@@ -65,7 +67,7 @@
       <recent name="E:\Geek Brains\Git\QA_Auto_Python_web\hw1" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.Python tests for hw2.test_gb_stand.test_valid_login">
     <configuration name="Python tests for hw2.test_gb_stand.test_valid_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="QA_Auto_Python_web" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -203,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692906430285</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added HW 2">
+      <option name="closed" value="true" />
+      <created>1693061779089</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1693061779089</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -211,6 +221,7 @@
     <MESSAGE value="Added lesson1" />
     <MESSAGE value="Added seminar 1" />
     <MESSAGE value="Added HW 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added HW 1" />
+    <MESSAGE value="Added HW 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added HW 2" />
   </component>
 </project>

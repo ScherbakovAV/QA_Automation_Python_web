@@ -1,0 +1,15 @@
+21:30:50 INFO ====== WebDriver manager ======
+21:30:51 INFO Get LATEST geckodriver version for 116.0 firefox
+21:30:51 INFO Get LATEST geckodriver version for 116.0 firefox
+21:30:51 INFO There is no [win64] geckodriver "v0.33.0" for browser firefox "116.0" in cache
+21:30:51 INFO Get LATEST geckodriver version for 116.0 firefox
+21:30:52 INFO Getting latest mozilla release info for v0.33.0
+21:30:52 INFO About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.33.0/geckodriver-v0.33.0-win64.zip
+21:30:53 INFO Driver downloading response is 200
+21:30:53 INFO Get LATEST geckodriver version for 116.0 firefox
+21:30:54 INFO Driver has been saved in cache [C:\Users\Professional\.wdm\drivers\geckodriver\win64\v0.33.0]
+21:30:59 INFO Test 1 is starting
+21:31:00 INFO Send test to element //*[@id="login"]/div[1]/label/input
+21:31:00 INFO Send test to element //*[@id="login"]/div[2]/label/input
+21:31:00 INFO Click login button
+21:31:02 INFO Founded text 401 in error field //*[@id="app"]/main/div/div/div[2]/h2
