@@ -5,19 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb54b0d2-42cb-41d6-ac13-4efd0650317f" name="Changes" comment="Added HW 1">
-      <change afterPath="$PROJECT_DIR$/lesson2/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson2/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson2/module.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson2/test_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson2/testdata.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seminar2/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seminar2/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seminar2/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seminar2/module.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seminar2/task.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seminar2/test_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seminar2/testdata.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw2/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw2/module.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw2/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw2/test_gb_stand.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw2/testdata.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminar2/test_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/seminar2/test_1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,12 +51,13 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "E:/Geek Brains/Git/QA_Auto_Python_web/seminar2",
+    "last_opened_file_path": "E:/Geek Brains/Git/QA_Auto_Python_web/hw2",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Geek Brains\Git\QA_Auto_Python_web\hw2" />
       <recent name="E:\Geek Brains\Git\QA_Auto_Python_web\seminar2" />
       <recent name="E:\Geek Brains\Git\QA_Auto_Python_web\hw1" />
     </key>
@@ -71,6 +66,20 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration name="Python tests for hw2.test_gb_stand.test_valid_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="QA_Auto_Python_web" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hw2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;hw2.test_gb_stand.test_valid_login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test_1.test_step1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="QA_Auto_Python_web" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -113,20 +122,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_soap_api.test_step1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="QA_Auto_Python_web" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_soap_api.test_step1&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests in soap_api.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="QA_Auto_Python_web" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -143,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for hw2.test_gb_stand.test_valid_login" />
         <item itemvalue="Python tests.Python tests for test_1.test_step1" />
         <item itemvalue="Python tests.Python tests for test_api.test_rest_new_post" />
         <item itemvalue="Python tests.Python tests for test_api.test_rest" />
         <item itemvalue="Python tests.Python tests in soap_api.py" />
-        <item itemvalue="Python tests.Python tests for test_soap_api.test_step1" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +195,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692657993497</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added HW 1">
+      <option name="closed" value="true" />
+      <created>1692906430285</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1692906430285</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -12,7 +12,6 @@ def test_step1(x_selector_1, x_selector_2, btn_selector, x_selector_3, expected_
     input1.send_keys('test')
     input2 = site.find_element('xpath', x_selector_2)
     input2.send_keys('test')
-    btn_selector = 'button'
     btn = site.find_element('css', btn_selector)
     btn.click()
     error_label = site.find_element('xpath', x_selector_3)
@@ -28,7 +27,6 @@ def test_step2(x_selector_1, x_selector_2, btn_selector, x_selector_3, x_selecto
     input2 = site.find_element('xpath', x_selector_2)
     input2.clear()
     input2.send_keys(testdata['password'])
-    btn_selector = 'button'
     btn = site.find_element('css', btn_selector)
     btn.click()
     link1 = site.find_element('xpath', x_selector_4)
