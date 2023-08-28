@@ -1,0 +1,13 @@
+address: https://test-stand.gb.ru
+driver_path: chromedriver.exe
+browser: edge
+login: Stepan90
+password: feb966b76b
+username: Stepan Ivanov
+email: stepka@test.ru
+sleep_time: 2
+implicitly_wait: 3
+post_title: HW2 test
+post_description: new description post
+post_content: new content in the post
+contact_us_text: Hi, guys!
