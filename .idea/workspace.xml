@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb54b0d2-42cb-41d6-ac13-4efd0650317f" name="Changes" comment="Added HW 2">
-      <change afterPath="$PROJECT_DIR$/lesson3/BaseApp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/test_gb_stand.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/testdata.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/testpage.py" afterDir="false" />
+    <list default="true" id="bb54b0d2-42cb-41d6-ac13-4efd0650317f" name="Changes" comment="Added Lesson 3">
+      <change afterPath="$PROJECT_DIR$/seminar3/BaseApp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seminar3/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seminar3/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seminar3/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seminar3/test_gb_stand.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seminar3/testdata.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seminar3/testpage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,19 +43,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "E:/Geek Brains/Git/QA_Auto_Python_web/lesson3",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Geek Brains/Git/QA_Auto_Python_web/lesson3&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Geek Brains\Git\QA_Auto_Python_web\lesson3" />
@@ -67,7 +67,7 @@
       <recent name="E:\Geek Brains\Git\QA_Auto_Python_web\hw1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for hw2.test_gb_stand.test_valid_login">
+  <component name="RunManager" selected="Python tests.Python tests for test_gb_stand.test_valid_login">
     <configuration name="Python tests for hw2.test_gb_stand.test_valid_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="QA_Auto_Python_web" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -124,27 +124,27 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in soap_api.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_gb_stand.test_valid_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="QA_Auto_Python_web" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/seminar1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/seminar3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/seminar1/soap_api.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_gb_stand.test_valid_login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_gb_stand.test_valid_login" />
         <item itemvalue="Python tests.Python tests for hw2.test_gb_stand.test_valid_login" />
         <item itemvalue="Python tests.Python tests for test_1.test_step1" />
         <item itemvalue="Python tests.Python tests for test_api.test_rest_new_post" />
         <item itemvalue="Python tests.Python tests for test_api.test_rest" />
-        <item itemvalue="Python tests.Python tests in soap_api.py" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693061779089</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added Lesson 3">
+      <option name="closed" value="true" />
+      <created>1693076556036</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1693076556036</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -222,6 +230,7 @@
     <MESSAGE value="Added seminar 1" />
     <MESSAGE value="Added HW 1" />
     <MESSAGE value="Added HW 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added HW 2" />
+    <MESSAGE value="Added Lesson 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Lesson 3" />
   </component>
 </project>
