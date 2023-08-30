@@ -4,17 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb54b0d2-42cb-41d6-ac13-4efd0650317f" name="Changes" comment="Added Seminar 3">
-      <change afterPath="$PROJECT_DIR$/hw3/BaseApp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw3/Task.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw3/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw3/log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw3/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw3/test_gb_stand.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw3/testdata.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw3/testpage.py" afterDir="false" />
+    <list default="true" id="bb54b0d2-42cb-41d6-ac13-4efd0650317f" name="Changes" comment="Added HW 3">
+      <change afterPath="$PROJECT_DIR$/lesson4/BaseApp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4/email_log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4/locators.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4/test_gb_stand.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4/testdata.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4/testpage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4/thread.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seminar3/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/seminar3/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw3/testdata.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/hw3/testdata.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminar3/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/seminar3/pytest.ini" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +234,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693247503011</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added HW 3">
+      <option name="closed" value="true" />
+      <created>1693257167625</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1693257167625</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -242,6 +253,7 @@
     <MESSAGE value="Added HW 2" />
     <MESSAGE value="Added Lesson 3" />
     <MESSAGE value="Added Seminar 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Seminar 3" />
+    <MESSAGE value="Added HW 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added HW 3" />
   </component>
 </project>

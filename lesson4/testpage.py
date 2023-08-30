@@ -1,0 +1,171 @@
+from BaseApp import BasePage
+from selenium.webdriver.common.by import By
+import logging
+import yaml
+
+
+class TestSearchLocators:
+    """Класс для хранения локаторов"""
+    ids = dict()
+    with open('locators.yaml') as f:
+        locators = yaml.safe_load(f)
+
+    for locator in locators['xpath'].keys():
+        ids[locator] = (By.XPATH, locators['xpath'][locator])
+
+    for locator in locators['css'].keys():
+        ids[locator] = (By.CSS_SELECTOR, locators['css'][locator])
+
+
+class OperationsHelper(BasePage):
+    """Класс, содержащий методы для работы с элементами на веб-страницах"""
+
+#  EXCEPTIONS
+    def enter_text_into_field(self, locator, word, description=None):
+        """Вспомогательный метод для методов ввода в поля текста"""
+        if description:
+            element_name = description
+        else:
+            element_name = locator
+        logging.info(f'Send {word} to element {element_name}')
+
+        field = self.find_element(locator)
+        if not field:
+            logging.debug(f'Element {locator} mot found')
+            return False
+        try:
+            field.clear()
+            field.send_keys(word)
+        except:
+            logging.exception(f'Exception while operation with {locator}')
+            return False
+        return True
+
+    def click_button(self, locator, description):
+        """Вспомогательный метод для методов нажатия на кнопку"""
+        if description:
+            element_name = description
+        else:
+            element_name = locator
+
+        button = self.find_element(locator)
+        if not button:
+            return False
+
+        try:
+            button.click()
+        except:
+            logging.exception('Exception with click')
+
+        logging.debug(f'Clicked {element_name}')
+        return True
+
+    def get_text_from_element(self, locator, description=None):
+        """Вспомогательный метод для методов возврата текста из элемента"""
+        if description:
+            element_name = description
+        else:
+            element_name = locator
+
+        field = self.find_element(locator, time=3)
+        if not field:
+            return None
+
+        try:
+            text = field.text
+        except:
+            logging.exception(f'Exception while getting a test from {element_name}')
+            return None
+
+        logging.debug(f'Founded text {text} in field {element_name}')
+        return text
+
+# ENTER TEXT
+    def enter_login(self, word):
+        """Ввод логина в поле ввода username страницы авторизации"""
+        self.enter_text_into_field(TestSearchLocators.ids['LOCATOR_LOGIN_FIELD'], word,
+                                   description='Enter a login on an authorisation page')
+
+    def enter_pass(self, word):
+        """Ввод пароля в поле ввода password страницы авторизации"""
+        self.enter_text_into_field(TestSearchLocators.ids['LOCATOR_PASS_FIELD'], word,
+                                   description='Enter a password on  an authorisation page')
+
+    def enter_post_title(self, word):
+        """Ввод заголовка поста в поле ввода Title формы создания поста"""
+        self.enter_text_into_field(TestSearchLocators.ids['LOCATOR_FORM_POST_TITLE'], word,
+                                   description='Enter a title in a creating post form')
+
+    def enter_post_description(self, word):
+        """Ввод описания поста в поле ввода Description формы создания поста"""
+        self.enter_text_into_field(TestSearchLocators.ids['LOCATOR_FORM_POST_DESCRIPTION'], word,
+                                   description='Enter a description in a creating post form')
+
+    def enter_post_content(self, word):
+        """Ввод поста в поле ввода Content формы создания поста"""
+        self.enter_text_into_field(TestSearchLocators.ids['LOCATOR_FORM_POST_CONTENT'], word,
+                                   description='Enter a content in a creating post form')
+
+    def enter_username_contact_us_form(self, word):
+        """Ввод имени пользователя в поле ввода 'Your name' формы 'Contact us!'"""
+        self.enter_text_into_field(TestSearchLocators.ids['LOCATOR_USERNAME_FIELD_CONTACT_US_FORM'], word,
+                                   description='Enter an username in a contact us form')
+
+    def enter_email_contact_us_form(self, word):
+        """Ввод электронной почты в поле ввода 'Your email' формы 'Contact us!'"""
+        self.enter_text_into_field(TestSearchLocators.ids['LOCATOR_EMAIL_FIELD_CONTACT_US_FORM'], word,
+                                   description='Enter an email in a contact us form')
+
+    def enter_content_contact_us_form(self, word):
+        """Ввод текста обращения в поле ввода 'Content' формы 'Contact us!'"""
+        self.enter_text_into_field(TestSearchLocators.ids['LOCATOR_CONTENT_FIELD_CONTACT_US_FORM'], word,
+                                   description='Enter a content in a contact us form')
+
+#  GET TEXT
+    def get_error_text(self):
+        """Возврат текста из блока ошибки страницы авторизации"""
+        return self.get_text_from_element(TestSearchLocators.ids['LOCATOR_ERROR_FIELD'],
+                                          description='Get error text')
+
+    def get_login_text(self):
+        """Возврат имени пользователя"""
+        return self.get_text_from_element(TestSearchLocators.ids['LOCATOR_USER_PROFILE_LINK'],
+                                          description='Get login text')
+
+    def get_post_title(self):
+        """Возврат названия поста пользователя"""
+        return self.get_text_from_element(TestSearchLocators.ids['LOCATOR_POST_NAME'],
+                                          description='Get post name')
+
+    def get_alert(self):
+        """Возврат текста alert при отправке формы обратной связи"""
+        logging.info('Get alert text')
+        text = self.get_alert_text()
+        logging.info(text)
+        return text
+
+#  CLICK BUTTON
+    def click_login_button(self):
+        """Нажатие кнопки Login страницы авторизации"""
+        self.click_button(TestSearchLocators.ids['LOCATOR_LOGIN_BTN'],
+                          description='Login button')
+
+    def click_create_post_button(self):
+        """Нажатие кнопки создания поста"""
+        self.click_button(TestSearchLocators.ids['LOCATOR_CREATE_POST_BTN'],
+                          description='Create post button')
+
+    def click_save_post_button(self):
+        """Нажатие кнопки сохранения поста"""
+        self.click_button(TestSearchLocators.ids['LOCATOR_SAVE_POST_BTN'],
+                          description='Save post button')
+
+    def click_contact_us_button(self):
+        """Нажатие кнопки открытия формы обратной связи на главной странице"""
+        self.click_button(TestSearchLocators.ids['LOCATOR_CONTACT_FORM_BTN'],
+                          description='Contact Us button')
+
+    def click_send_contact_us_form(self):
+        """Нажатие кнопки отправки формы обратной связи"""
+        self.click_button(TestSearchLocators.ids['LOCATOR_SEND_CONTACT_US_FORM_BTN'],
+                          description='Save Contact Us form')
