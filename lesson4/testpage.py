@@ -1,3 +1,5 @@
+from selenium.common import TimeoutException
+
 from BaseApp import BasePage
 from selenium.webdriver.common.by import By
 import logging
@@ -31,12 +33,12 @@ class OperationsHelper(BasePage):
 
         field = self.find_element(locator)
         if not field:
-            logging.debug(f'Element {locator} mot found')
+            logging.debug(f'Element {locator} not found')
             return False
         try:
             field.clear()
             field.send_keys(word)
-        except:
+        except TimeoutException:
             logging.exception(f'Exception while operation with {locator}')
             return False
         return True
@@ -54,7 +56,7 @@ class OperationsHelper(BasePage):
 
         try:
             button.click()
-        except:
+        except TimeoutException:
             logging.exception('Exception with click')
 
         logging.debug(f'Clicked {element_name}')
@@ -73,7 +75,7 @@ class OperationsHelper(BasePage):
 
         try:
             text = field.text
-        except:
+        except TimeoutException:
             logging.exception(f'Exception while getting a test from {element_name}')
             return None
 

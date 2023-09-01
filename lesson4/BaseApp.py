@@ -1,4 +1,6 @@
 import logging
+
+from selenium.common import TimeoutException
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 
@@ -15,8 +17,8 @@ class BasePage:
         try:
             element = WebDriverWait(self.driver, time).until(ec.presence_of_element_located(locator),
                                                              message=f"Can't find element by locator {locator}")
-        except:
-            logging.exception('Find element exception')
+        except TimeoutException:
+            logging.exception('Find element exception:')
             element = None
         return element
 

@@ -5,8 +5,8 @@ from email.mime.text import MIMEText
 from email.mime.application import MIMEApplication
 
 
-def send_log_via_email(email_from, email_to, password, file_name):
-    msg = MIMEMultipart()
+def send_log_via_email(email_from, email_to, password, file_name, report_file):
+    msg = MIMEMultipart('alternative')
     msg['From'] = email_from
     msg['To'] = email_to
     msg['Subject'] = 'Результаты автотестов для тестового стенда gb'
@@ -16,10 +16,16 @@ def send_log_via_email(email_from, email_to, password, file_name):
         part['Content-Disposition'] = 'attachment; filename="%s"' % basename(file_name)
         msg.attach(part)
 
-    body = 'Результат автотестирования тестового стенда GB https://test-stand.gb.ru'
-    msg.attach(MIMEText(body, 'plain'))
+    body = f'Результат автотестирования тестового стенда GB https://test-stand.gb.ru'
 
-    server = smtplib.SMTP_SSL('smtp.mail.ru', 465)
+    with open(report_file, 'r', encoding='utf-8') as f:
+        report_text = f.read()
+
+    body += report_text
+
+    msg.attach(MIMEText(body, 'html'))
+
+    server = smtplib.SMTP_SSL('smtp.mail.ru', 465)  # 25
     server.login(email_from, password)
     text = msg.as_string()
     server.sendmail(email_from, email_to, text)
