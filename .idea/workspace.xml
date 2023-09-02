@@ -4,18 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb54b0d2-42cb-41d6-ac13-4efd0650317f" name="Changes" comment="Added Lesson 4">
-      <change afterPath="$PROJECT_DIR$/lesson4/assets/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson4/report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seminar4/readme.md" afterDir="false" />
+    <list default="true" id="bb54b0d2-42cb-41d6-ac13-4efd0650317f" name="Changes" comment="Added Seminar 4">
+      <change afterPath="$PROJECT_DIR$/hw4/BaseApp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw4/Task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw4/assets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw4/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw4/email_log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw4/locators.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw4/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw4/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw4/report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw4/test_ui_gb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw4/testdata.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw4/testpage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson4/BaseApp.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/BaseApp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson4/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson4/email_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/email_log.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson4/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson4/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson4/testdata.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/testdata.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson4/testpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/testpage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw1/test_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw4/test_api_gb.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,87 +70,88 @@
       <recent name="E:\Geek Brains\Git\QA_Auto_Python_web\hw1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Geek Brains\Git\QA_Auto_Python_web\hw4" />
       <recent name="E:\Geek Brains\Git\QA_Auto_Python_web\hw1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for hw2.test_gb_stand.test_valid_login">
-    <configuration name="Python tests for hw2.test_gb_stand.test_valid_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests in test_api_gb.py">
+    <configuration name="Python tests for test_api_gb.test_rest_get_post" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="QA_Auto_Python_web" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hw2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hw4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;hw2.test_gb_stand.test_valid_login&quot;" />
+      <option name="_new_target" value="&quot;test_api_gb.test_rest_get_post&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_1.test_step1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_api_gb.test_rest_new_post" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="QA_Auto_Python_web" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hw4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_1.test_step1&quot;" />
+      <option name="_new_target" value="&quot;test_api_gb.test_rest_new_post&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_api.test_rest" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_ui_gb.test_add_post" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="QA_Auto_Python_web" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/seminar1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hw4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_api.test_rest&quot;" />
+      <option name="_new_target" value="&quot;test_ui_gb.test_add_post&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_api.test_rest_new_post" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in test_api_gb.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="QA_Auto_Python_web" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hw1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hw4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_api.test_rest_new_post&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/hw4/test_api_gb.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_gb_stand.test_valid_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in test_ui_gb.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="QA_Auto_Python_web" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/seminar3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hw4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_gb_stand.test_valid_login&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/hw4/test_ui_gb.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_gb_stand.test_valid_login" />
-        <item itemvalue="Python tests.Python tests for hw2.test_gb_stand.test_valid_login" />
-        <item itemvalue="Python tests.Python tests for test_1.test_step1" />
-        <item itemvalue="Python tests.Python tests for test_api.test_rest_new_post" />
-        <item itemvalue="Python tests.Python tests for test_api.test_rest" />
+        <item itemvalue="Python tests.Python tests in test_api_gb.py" />
+        <item itemvalue="Python tests.Python tests for test_api_gb.test_rest_new_post" />
+        <item itemvalue="Python tests.Python tests for test_api_gb.test_rest_get_post" />
+        <item itemvalue="Python tests.Python tests in test_ui_gb.py" />
+        <item itemvalue="Python tests.Python tests for test_ui_gb.test_add_post" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +252,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693400514386</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added Seminar 4">
+      <option name="closed" value="true" />
+      <created>1693593918398</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1693593918398</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -261,6 +273,7 @@
     <MESSAGE value="Added Seminar 3" />
     <MESSAGE value="Added HW 3" />
     <MESSAGE value="Added Lesson 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Lesson 4" />
+    <MESSAGE value="Added Seminar 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Seminar 4" />
   </component>
 </project>
